@@ -1,14 +1,5 @@
 'use strict';
-/*
- * Create a list that holds all of your cards
- */
 
-/*
- * Display the cards on the page
- *   - shuffle the list of cards using the provided "shuffle" method below
- *   - loop through each card and create its HTML
- *   - add each card's HTML to the page
- */
 function game() {
 	let cards = document.querySelectorAll('.card'),
         deck = document.querySelector('.deck'),
